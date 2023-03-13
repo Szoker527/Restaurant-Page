@@ -13,6 +13,6 @@ function pageLoad () {
     h1.textContent = "wow"
     container.appendChild(h1)
     console.log(container)
-    console.log("wow?")
+    console.log("whot")
 
 }
