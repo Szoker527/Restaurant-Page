@@ -1,10 +1,9 @@
-export default homePage; 
+export default menuPage; 
 
-function homePage() {
-    
+function menuPage() {
     const container = document.getElementById("content")
     const placeholder = document.createElement("div")
-    placeholder.textContent = "Home!"
+    placeholder.textContent = "Menu!!"
     placeholder.classList.add("test")
     container.appendChild(placeholder)
 }

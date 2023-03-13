@@ -1,4 +1,6 @@
 import page from "./front-page";
+import menu from "./menu";
+import contact from "./contact";
 import './style.css';
 
 const container = document.getElementById("content")
@@ -14,6 +16,9 @@ btn2.textContent = "Menu"
 btn3.textContent = "Contact"
 
 btn1.addEventListener("click", page)
+btn2.addEventListener("click", menu)
+btn3.addEventListener("click", contact)
+
 btnContainer.classList.add("btn-container")
 container.appendChild(btnContainer)
 container.appendChild(h1)

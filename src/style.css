@@ -15,6 +15,16 @@
     grid-template-rows: 100px 1fr;
 }
 
+.home,
+.menu,
+.contact {
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    font-size: 70px;
+    align-self: center;
+    justify-self: center;
+}
+
 h1 {
     grid-row: 1 / 2;
     grid-column: 3 / 5;
