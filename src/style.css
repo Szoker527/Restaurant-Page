@@ -33,7 +33,7 @@
 
 #display {
     display: grid;
-    grid-column: 3 / 5;
+    grid-column: 2 / 6;
     grid-row: 2 / 3;
 }
 
@@ -48,7 +48,7 @@
 
 h1 {
     grid-row: 1 / 2;
-    grid-column: 3 / 5;
+    grid-column: 1 / 2;
     font-size: 100px;
     align-self: center;
     justify-self: center;
@@ -86,12 +86,19 @@ button {
 }
 
 .home-title {
-    color: white;
+    /* color: white;
     font-family: MyFont , sans-serif;
     font-size: 40px;
     font-weight: 400;
     align-self: center;
-    margin: 20px 50px;
+    margin: 20px 50px; */
+    position: absolute;
+    color: white;
+    font-family: MyFont , sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    align-self: center;
+    margin: 0 50px;
 }
 
 .home-card {
@@ -149,4 +156,84 @@ button {
     font-size: 18px;
     font-family: chalkSmall , sans-serif;
     margin-top: 10px;
+}
+
+/* MENU page style starts here */
+
+.menu {
+    color: white;
+    font-family: MyFont , sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    align-self: center;
+    margin: 0 50px;
+}
+
+.sub-titles {
+    color: white;
+    font-family: MyFont , sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    align-self: center;
+    margin: 5% 0;
+}
+
+.food-box {
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    font-family: chalkSmall , sans-serif;
+    margin: 15px 0;
+}
+
+.food-box h3 {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.food-box p {
+    font-size: 18px;
+    font-weight: 0;
+}
+
+.pizza-context {
+    flex: 1;
+    padding: 20px;
+}
+
+.pizza-marg {
+    flex: 1;
+    background-image: url('./images/pizza-marg.jpg');
+    background-size: cover;
+}
+
+.pizza-parm {
+    flex: 1;
+    background-image: url('./images/pizza-parm.jpg');
+    background-size: cover;
+}
+
+.pizza-pros {
+    flex: 1;
+    background-image: url('./images/pizza-pros.jpg');
+    background-size: cover;
+}
+
+.pizza-salami {
+    flex: 1;
+    background-image: url('./images/pizza-salami.jpg');
+    background-size: cover;
+}
+
+.fries {
+    flex: 1;
+    background-image: url('./images/fries.jpg');
+    background-size: cover;
+}
+
+.chicken-wings {
+    flex: 1;
+    background-image: url('./images/chicken-wings.jpg');
+    background-size: cover;
 }
