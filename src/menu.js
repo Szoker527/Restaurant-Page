@@ -37,7 +37,7 @@ function menuPage() {
     createFoodBox(containerHome, "Pizza Salami", pizzaPros, "15$", "pizza-pros")
     titles(containerHome, "Servings")
     createFoodBox(containerHome, "Fries", fries, "4$", "fries")
-    createFoodBox(containerHome, "Spicy Chicken Wings", chickenWings, "4$", "chicken-wings")
+    createFoodBox(containerHome, "Spicy Chicken Wings", chickenWings, "7$", "chicken-wings")
 
 }
 

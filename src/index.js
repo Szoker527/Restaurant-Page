@@ -84,12 +84,19 @@ function thirdBox(box) {
 
 }
 
+function footer() {
+    const footer = document.createElement("footer");
+    const footerContent = document.createElement("div")
+    footerContent.classList.add("footer-author")
+    footerContent.textContent = "Copyright © JoJo 2022"
+
+    container.appendChild(footer)
+    footer.appendChild(footerContent)
+
+}
+ 
 
 
-
-
-
-home()
 
 // Get the body element
 const body = document.querySelector("body");
@@ -115,3 +122,6 @@ container.appendChild(displayContent)
 btnContainer.appendChild(btn1)
 btnContainer.appendChild(btn2)
 btnContainer.appendChild(btn3)
+
+home()
+footer()
