@@ -8,7 +8,6 @@ Photo by <a href="https://www.pexels.com/photo/pizza-pepperoni-with-salami-and-f
 Photo by <a href="https://www.pexels.com/photo/fried-potatoes-1583884/">Dzenina</a> from Pexels<br>
 Photo by <a href="https://www.pexels.com/photo/cooked-pizza-1146760/">Kristina Paukshtite</a> from Pexels<br>
 Photo by <a href="https://www.pexels.com/photo/a-close-up-shot-of-a-delicious-margherita-pizza-14391207/">Leonardo Luz</a> from Pexels<br>
-Photo by <a href="https://www.pexels.com/photo/chicken-wings-on-a-wooden-board-13999253/">Leonardo Luz</a> from Pexels<br>
 <a href="https://www.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_17839221.htm">Solid concrete wall textured backdrop</a><br>
 <p>Images in contact are taken JoJo's Bizarre Adventure anime</p><br>
 <h2>Fonts links</h2>
